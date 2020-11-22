@@ -1,0 +1,47 @@
+/*React Navbar Dropdown Menu Responsive Tutorial—Beginner React JS Project. (n.d.). Retrieved September 15, 2020, from https://www.youtube.com/watch?v=T2MhVxJxsL0
+*/
+:root {
+    --primary: rgb(63, 227, 248);
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.btn--primary {
+    background-color: var(--primary);
+    color: white;
+    border: 1px solid var(--primary);
+    
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: white;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;  
+}
+
+.btn--medium {
+    padding: 8px 20px;
+    font-size: 20px;
+    color: rgb(63, 227, 248);
+}
+
+.btn--large {
+    padding: 12px 26px;
+    font-size: 20px;
+     color: rgb(63, 227, 248);
+}
+
+.btn--medium:hover, .btn--large:hover {
+    background: white;
+    color: #242424;
+    transition: all 0.3s ease-out;  
+}
