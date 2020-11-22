@@ -1,4 +1,4 @@
-# web601MS3
+#Kayla Jolly Hairdresser Website
 WEB601 final Project files
 
 This is my final project website called "Kayla Jolly Hairdresser"
